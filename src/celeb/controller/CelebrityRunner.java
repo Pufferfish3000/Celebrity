@@ -1,3 +1,4 @@
+package celeb.controller;
 /**
  * Starts the Celebrity Game application
  * @author cody.henrichsen

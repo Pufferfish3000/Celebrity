@@ -1,3 +1,4 @@
+package celeb.model;
 import java.util.ArrayList;
 
 /**

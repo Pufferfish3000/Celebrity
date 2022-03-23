@@ -1,3 +1,4 @@
+package celeb.controller;
 import javax.swing.JFrame;
 
 public class SimpleGUIRunner
