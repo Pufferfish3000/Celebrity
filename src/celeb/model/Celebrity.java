@@ -6,13 +6,8 @@ package celeb.model;
  */
 public class Celebrity
 {
-	/**
-	 * The clue to determine the celebrity
-	 */
-	
-	/**
-	 * The answer or name of the celebrity.
-	 */
+	private String celebClue;
+	private String celebAnswer;
 	
 	/**
 	 * Creates a Celebrity instance with the supplied answer and clue
@@ -21,6 +16,8 @@ public class Celebrity
 	 */
 	public Celebrity(String answer, String clue)
 	{
+		celebClue = "DEFAULT CLUE";
+		celebAnswer = "DEFAULT ANSWER";
 	}
 
 	/**
@@ -29,7 +26,7 @@ public class Celebrity
 	 */
 	public String getClue()
 	{
-		return null;
+		return celebClue;
 	}
 
 	/**
@@ -38,7 +35,7 @@ public class Celebrity
 	 */
 	public String getAnswer()
 	{
-		return null;
+		return celebAnswer;
 	}
 
 	/**
@@ -47,7 +44,7 @@ public class Celebrity
 	 */
 	public void setClue(String clue)
 	{
-		
+		celebClue = clue;
 	}
 
 	/**
@@ -56,7 +53,7 @@ public class Celebrity
 	 */
 	public void setAnswer(String answer)
 	{
-		
+		celebAnswer = answer;
 	}
 	
 	/**
@@ -65,7 +62,12 @@ public class Celebrity
 	@Override
 	public String toString()
 	{
-		return null;
+		String desc = "";
+		desc += "HI IA AM COMPUTERER PROGRAM \n";
+		desc += "THE CLU TYAT U WERE GIVEN WAS " + celebClue + "\n";
+		desc += "THE CELLEBRITY TJAT U GOT WAS UHHHHHHHHHH" + celebAnswer + "\n";
+		desc += "THANK YOU 4 PLYING #celebrity guessing game# :D";
+		return desc;
 	}
 	
 }

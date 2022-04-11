@@ -11,7 +11,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 
-import celeb.model.CelebrityGame;
+import celeb.controller.CelebrityGame;
 
 /**
  * The start screen for the CelebrityGame app.

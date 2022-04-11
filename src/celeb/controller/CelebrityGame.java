@@ -1,4 +1,4 @@
-package celeb.model;
+package celeb.controller;
 import java.util.ArrayList;
 
 /**
@@ -22,7 +22,6 @@ public class CelebrityGame
 	 */
 
 	/**
-	 * Builds the game and starts the GUI
 	 */
 	public CelebrityGame()
 	{

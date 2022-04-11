@@ -4,7 +4,7 @@ import java.awt.CardLayout;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import celeb.model.CelebrityGame;
+import celeb.controller.CelebrityGame;
 
 /**
  * GUI Frame class for the Celebrity Game
